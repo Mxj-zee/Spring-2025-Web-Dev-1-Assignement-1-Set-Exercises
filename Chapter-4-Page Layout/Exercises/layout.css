@@ -1,0 +1,129 @@
+<<<<<<< HEAD
+/* Base layout and typography */
+body {
+    font-family: 'Georgia', serif;
+    background-color: #f0f5f2;
+    color: #2c3e50;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    line-height: 1.8;
+    text-align: center;
+}
+
+/* Heading */
+h1 {
+    font-size: 3em;
+    color: #2e8b57;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.1em;
+    margin-bottom: 30px;
+}
+
+/* Image containers */
+.image-container {
+    background-color: #ffffff;
+    margin-bottom: 40px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease;
+}
+
+.image-container:hover {
+    transform: scale(1.01);
+}
+
+/* Images with CSS filter */
+.image-container img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 8px;
+    filter: contrast(105%) saturate(115%) brightness(0.95);
+    transition: filter 0.3s ease;
+}
+
+/* Hover effect for more visual pop */
+.image-container img:hover {
+    filter: contrast(120%) saturate(130%) brightness(1);
+}
+
+/* Link styling */
+a {
+    color: #2e8b57;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+=======
+/* Base layout and typography */
+body {
+    font-family: 'Georgia', serif;
+    background-color: #f0f5f2;
+    color: #2c3e50;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    line-height: 1.8;
+    text-align: center;
+}
+
+/* Heading */
+h1 {
+    font-size: 3em;
+    color: #2e8b57;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.1em;
+    margin-bottom: 30px;
+}
+
+/* Image containers */
+.image-container {
+    background-color: #ffffff;
+    margin-bottom: 40px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease;
+}
+
+.image-container:hover {
+    transform: scale(1.01);
+}
+
+/* Images with CSS filter */
+.image-container img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 8px;
+    filter: contrast(105%) saturate(115%) brightness(0.95);
+    transition: filter 0.3s ease;
+}
+
+/* Hover effect for more visual pop */
+.image-container img:hover {
+    filter: contrast(120%) saturate(130%) brightness(1);
+}
+
+/* Link styling */
+a {
+    color: #2e8b57;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+>>>>>>> 12d0dc5d3d73f12995cafcd8e930595ed84207fd

@@ -1,0 +1,97 @@
+<<<<<<< HEAD
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f4f8;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #2c3e50;
+}
+
+.image-container {
+    margin: 30px auto;
+    max-width: 650px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    filter: contrast(110%) saturate(120%) grayscale(20%);
+    border-radius: 6px;
+    transition: filter 0.3s ease;
+}
+
+.image-container img:hover {
+    filter: contrast(120%) saturate(140%);
+}
+
+.image-container p {
+    font-size: 0.9em;
+    color: #555;
+    margin-top: 10px;
+}
+
+a {
+    color: #2980b9;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+=======
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f4f8;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #2c3e50;
+}
+
+.image-container {
+    margin: 30px auto;
+    max-width: 650px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    filter: contrast(110%) saturate(120%) grayscale(20%);
+    border-radius: 6px;
+    transition: filter 0.3s ease;
+}
+
+.image-container img:hover {
+    filter: contrast(120%) saturate(140%);
+}
+
+.image-container p {
+    font-size: 0.9em;
+    color: #555;
+    margin-top: 10px;
+}
+
+a {
+    color: #2980b9;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+>>>>>>> 12d0dc5d3d73f12995cafcd8e930595ed84207fd
